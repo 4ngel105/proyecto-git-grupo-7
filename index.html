@@ -24,6 +24,66 @@
             <button id="btnOferta">Ver oferta del día</button>
             <p id="mensajeBienvenida"></p>
         </section>
+        
+        <section id="productos">
+                <h2>Catálogo de Productos</h2>
+                <p>Componentes disponibles en inventario:</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Código</th>
+                            <th>Producto</th>
+                            <th>Categoría</th>
+                            <th>Precio ($)</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tablaProductos">
+                        <tr>
+                            <td>C-01</td>
+                            <td>Procesador Intel Core i7</td>
+                            <td>Procesadores</td>
+                            <td>4000</td>
+                        </tr>
+                        <tr>
+                            <td>C-02</td>
+                            <td>Tarjeta de Video Nvidia RTX 4060</td>
+                            <td>Tarjetas Gráficas</td>
+                            <td>10000</td>
+                        </tr>
+                        <tr>
+                            <td>C-03</td>
+                            <td>Memoria RAM DDR5 16GB</td>
+                            <td>Memorias</td>
+                            <td>2500</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section id="registro">
+                <h2>Registro de Clientes</h2>
+                <form id="formRegistro">
+                    <div>
+                        <label for="nombre">Nombre Completo:</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Ej. Juan Pérez" required>
+                    </div>
+                    <div>
+                        <label for="email">Correo Electrónico:</label>
+                        <input type="email" id="email" name="email" placeholder="correo@ejemplo.com" required>
+                    </div>
+                    <div>
+                        <label for="interes">Componente de Interés:</label>
+                        <select id="interes" name="interes" required>
+                            <option value="">Selecciona una categoría</option>
+                            <option value="Procesadores">Procesadores</option>
+                            <option value="Tarjetas Gráficas">Tarjetas Gráficas</option>
+                            <option value="Memorias RAM">Memorias RAM</option>
+                            <option value="Almacenamiento">Discos SSD / HDD</option>
+                        </select>
+                    </div>
+                    <button type="submit" id="btnGuardar">Registrarse</button>
+                </form>
+            </section>
     </main>
     
 </body>
