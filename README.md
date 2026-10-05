@@ -2,18 +2,18 @@
 Tienda de partes de computadora 
 
 ## Integrantes - 
-### Roberto Angel Ayala Lecoña - Nombre 2 - Nombre 3 
+### Roberto Angel Ayala Lecoña - Noelia Huanca Mamani -Mauricio Ivan Reynolds Ribera
 
 
 ## Descripción 
 Tienda de partes de computadora para el registro de productos y clientes. 
 ## Tecnologías 
 HTML 
-CSS 
-JavaScript 
+, CSS 
+ , JavaScript 
 
 ## Funcionalidades - 
-Regsitro de clientes   
-REgistro de productos 
+Registro de clientes   
+Registro de productos 
 Informacion general de la tienda 
 Ver ofertas 
